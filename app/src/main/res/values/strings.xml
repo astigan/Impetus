@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="maps_api_key_debug">AIzaSyBirgyNOjaU-nnOUjBA9mzN8Al2YRiO2-4</string>
+    <string name="maps_api_key_release"></string>
+
+    <string name="app_name">Get Lost</string>
+    <string name="app_version_name">1.0</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="tab_create">Create</string>
+    <string name="tab_history">History</string>
+    <string name="get_lost_btn_label">Get Lost!</string>
+    
+    <string name="journey_title_label">Journey Title</string>
+    <string name="distance_label_wildcard">Approx journey distance: %s km</string>
+
+    <string name="seekbar_default_label">1 km</string>
+    <string name="randomise_map_btn_label">Randomise Map</string>
+    <string name="end_journey_title">End Journey?</string>
+    <string name="end_journey_msg">Your current journey will be lost forever!</string>
+    <string name="enable_gps_title">Enable GPS?</string>
+    <string name="enable_gps_msg">Without GPS, you will probably get incredibly lost!</string>
+    <string name="enable">Enable</string>
+    <string name="default_time_widget_value">0:00</string>
+    <string name="default_distance_value">0m</string>
+    <string name="default_speed_value">0 %s</string>
+    <string name="preferences">Preferences</string>
+    <string name="preference_distance_units_title">Distance units</string>
+    <string name="preference_distance_units_msg">Use metric units (km)</string>
+    <string name="time_display_widget_label">Time</string>
+    <string name="distance_display_widget_label">Distance</string>
+    <string name="speed_display_widget_label">Speed</string>
+    <string name="end_journey_btn_label">End Journey</string>
+    <string name="current_location_unavailable">Unable to find location - please make sure GPS is enabled</string>
+    <string name="generic_error">Oops - something went wrong, please try again!</string>
+    <string name="about">About</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="privacy">Privacy</string>
+    <string name="created_by_credits">Created by Jamie Lynch</string>
+    <string name="privacy_policy">Privacy</string>
+    <string name="licenses">Licenses</string>
+    <string name="continue_exploring">Continue Exploring</string>
+    <string name="continue_journey">Continue</string>
+    <string name="exit">Exit</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="journey_success_message">It looks like you\'ve made it! You can continue exploring or exit and start a new journey. Either way, enjoy the view!</string>
+    <string name="gps_strength">GPS Signal:</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="img_desc_app_logo">App Logo</string>
+
+    <string name="privacy_policy_body">This app collects anonymised information for the purpose of crash reporting using a 3rd party provider, Crashlytics.
+        It is possible that your location at the time of the crash may be recorded.
+        \n\nThe NSA is also watching everything you do with this app, but unfortunately the author can\'t do anything about that.
+    </string>
+    <string name="license_preamble">This app uses 3rd party software and assets which are released under the following licenses:</string>
+    <string name="license_butterknife">Butterknife - Jake Wharton\n Apache 2.0</string>
+    <string name="license_ldrawer">LDrawer - İkimühendis\nApache 2.0</string>
+    <string name="license_md_icons">Material Design Icons - Google\nAttribution 4.0 International</string>
+    <string name="license_flaticon">App Launcher Icon - Flaticon\nCreative Commons BY 3.0</string>
+
+    <string name="license">License</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dialog_padding">
+
+        <TextView
+            android:id="@+id/help_title"
+            android:text="@string/app_name"
+            style="@style/dialog_title" />
+
+        <ImageView
+            android:id="@+id/get_lost_logo"
+            android:layout_width="@dimen/logo_size"
+            android:layout_height="@dimen/logo_size"
+            android:layout_below="@+id/help_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/default_item_padding"
+            android:src="@drawable/logo_high_res"
+            android:contentDescription="@string/img_desc_app_logo" />
+
+        <TextView
+            android:id="@+id/help_version_name"
+            android:layout_below="@+id/get_lost_logo"
+            android:text="@string/app_version_name"
+            style="@style/dialog_text_general" />
+
+        <TextView
+            android:id="@+id/help_credits"
+            android:layout_below="@+id/help_version_name"
+            style="@style/dialog_text_general"
+            android:text="@string/created_by_credits"/>
+
+    </RelativeLayout>
+
+</ScrollView>

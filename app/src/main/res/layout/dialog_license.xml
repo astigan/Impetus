@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dialog_padding">
+
+        <TextView
+            android:id="@+id/license_title"
+            style="@style/dialog_title"
+            android:text="@string/licenses" />
+
+        <TextView
+            android:id="@+id/license_preamble"
+            style="@style/dialog_text_general"
+            android:layout_below="@+id/license_title"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/license_preamble" />
+
+        <TextView
+            android:id="@+id/license_butterknife"
+            style="@style/dialog_text_general"
+            android:layout_below="@+id/license_preamble"
+            android:gravity="center"
+            android:text="@string/license_butterknife" />
+
+        <TextView
+            android:id="@+id/license_ldrawer"
+            style="@style/dialog_text_general"
+            android:layout_below="@+id/license_butterknife"
+            android:gravity="center"
+            android:text="@string/license_ldrawer" />
+
+        <TextView
+            android:id="@+id/license_md_icons"
+            style="@style/dialog_text_general"
+            android:layout_below="@+id/license_ldrawer"
+            android:gravity="center"
+            android:text="@string/license_md_icons" />
+
+        <TextView
+            android:id="@+id/license_flaticon"
+            style="@style/dialog_text_general"
+            android:layout_below="@+id/license_md_icons"
+            android:gravity="center"
+            android:text="@string/license_flaticon" />
+
+    </RelativeLayout>
+
+</ScrollView>

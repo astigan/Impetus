@@ -1,0 +1,22 @@
+# app files
+*.apk
+*.ap_
+
+# java/dex files
+*.dex
+*.class
+
+# generated files
+bin/
+gen/
+
+#config files
+local.properties
+crashlytics.properties
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+.ideao
+build
